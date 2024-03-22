@@ -3,18 +3,18 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 
 [[menus.main]]
-name = 'Home'
+name = 'Bio'
 pageRef = '/'
 weight = 10
 
 [[menus.main]]
-name = 'Posts'
-pageRef = '/posts'
+name = 'Publications'
+pageRef = '/publications'
 weight = 20
 
 [[menus.main]]
-name = 'Tags'
-pageRef = '/tags'
+name = 'Learning materials'
+pageRef = '/learning'
 weight = 30
 
 [module]
