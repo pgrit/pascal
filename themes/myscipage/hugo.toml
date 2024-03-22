@@ -13,8 +13,8 @@ pageRef = '/publications'
 weight = 20
 
 [[menus.main]]
-name = 'Learning materials'
-pageRef = '/learning'
+name = 'Tools'
+pageRef = '/tools'
 weight = 30
 
 [module]
