@@ -1,0 +1,45 @@
+<div>
+    <div style="float: left; height: 200px; width: 300px; overflow: hidden; margin-right: 10px; ">
+        <a href="{{ .pdf }}">
+            <img src="{{ .teaser }}" height="100%" />
+        </a>
+    </div>
+    <div>
+
+    <a href="{{ .pdf }}">
+        {{ .title }}
+    </a>
+
+    <p>
+        DOI:
+        <a href="https://doi.org/{{ .doi }}">
+            {{ .doi }}
+        </a>
+    </p>
+
+    <p>
+        {{ range .authors }}
+            {{ if .me }}
+                <strong class="myname">{{ .name }}</strong>
+            {{ else }}
+                <a href="{{.url}}">{{ .name }}</a>
+            {{ end}}
+        {{ end }}
+    </p>
+
+    <p>
+        {{ .venue }}
+    </p>
+
+    <p>
+        {{ .tldr }}
+    </p>
+
+    <p>
+        {{ range .links }}
+            <a href="{{.url}}">{{ .name }}</a>
+        {{ end }}
+    </p>
+
+    </div>
+</div>
