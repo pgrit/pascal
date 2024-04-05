@@ -1,0 +1,41 @@
+title: Variance-aware multiple importance sampling
+
+date: 2019-11-17
+
+authors:
+  - name: Pascal Grittmann
+    me: true
+
+  - name: Iliyan Georgiev
+    url: https://iliyan.com
+
+  - name: Philipp Slusallek
+    url: https://graphics.cg.uni-saarland.de/people/slusallek
+
+  - name: Jaroslav Křivánek
+    url: http://cgg.mff.cuni.cz/~jaroslav/
+
+teaser: /content/publications/varaware-mis/teaser.jpg
+
+venue: ACM Trans. Graph. (SIGGRAPH Asia 2019)
+
+tldr: Identifies and fixes an MIS weighting issue in bidirectional rendering algorithms. The fix − injecting variance estimates − is generally applicable to any MIS estimator.
+
+pdf: /content/publications/varaware-mis/varaware-mis.pdf
+
+doi: 10.1145/3355089.3356515
+
+bibtex: |
+  @article{Grittmann2019,
+    author          = {Grittmann, Pascal and Georgiev, Iliyan and Slusallek, Philipp and K{\v{r}}iv{\'{a}}nek, Jaroslav},
+    title           = {Variance-Aware Multiple Importance Sampling},
+    journal         = {ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2019)},
+    pages           = {152:1--152:9},
+    volume          = {38},
+    number          = {6},
+    year            = 2019,
+    month           = nov,
+    date            = {2019-11-17/2019-11-20},
+    doi             = {10.1145/3355089.3356515},
+    publisher       = {ACM}
+  }

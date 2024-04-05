@@ -4,7 +4,13 @@ date = 2024-03-22T10:41:20+01:00
 draft = true
 +++
 
-I'm a PostDoc in [Computer Graphics](https://graphics.cg.uni-saarland.de) at [Saarland University](https://www.uni-saarland.de). I got my PhD (Dr.-Ing.) at Saarland University (in 2024), spent a few months as a Marie Skłodowska-Curie early-stage researcher in the [Computer Graphics group](https://cgg.mff.cuni.cz) at [Charles University](https://cuni.cz) in Prague in 2017, and got my MSc in computer science (2018) and BSc in Media Informatics (2016) at Saarland University.
+I'm a postdoc in [Computer Graphics](https://graphics.cg.uni-saarland.de) at [Saarland University](https://www.uni-saarland.de). I got my PhD (Dr.-Ing.) at Saarland University (in 2024), spent a few months as a Marie Skłodowska-Curie early-stage researcher in the [Computer Graphics group](https://cgg.mff.cuni.cz) at [Charles University](https://cuni.cz) in Prague in 2017, and got my MSc in computer science (2018) and BSc in Media Informatics (2016) at Saarland University.
+
+[My page at Saarland University](https://graphics.cg.uni-saarland.de/people/grittmann.html),
+[<iconify-icon icon="bi:github"></iconify-icon> GitHub](https://github.com/pgrit),
+[<iconify-icon icon="academicons:orcid"></iconify-icon> orcid.org/0000-0002-5325-3744](https://orcid.org/0000-0002-5325-3744),
+[<iconify-icon icon="academicons:google-scholar"></iconify-icon> Google Scholar](https://scholar.google.com/citations?user=OgL5bOgAAAAJ)
+
 
 ## Research goals
 

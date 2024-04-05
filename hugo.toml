@@ -1,4 +1,7 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = "Pascal Grittmann's research corner"
+title = "Pascal Grittmann"
 theme = 'myscipage'
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files

@@ -1,45 +1,46 @@
-<div>
-    <div style="float: left; height: 200px; width: 300px; overflow: hidden; margin-right: 10px; ">
-        <a href="{{ .pdf }}">
-            <img src="{{ .teaser }}" height="100%" />
+<div style="margin-bottom: 3em;">
+    {{/*  {{ if mod .pubidx 2 }}  */}}
+    <div style="float: left; height: 200px; overflow: hidden; margin-right: 2em; ">
+    {{/*  {{ else }}
+    <div style="float: right; height: 200px; overflow: hidden; margin-right: 10px; ">
+    {{ end }}  */}}
+        <a href="{{ .context.pdf }}">
+            <img src="{{ .context.teaser }}" height="100%" />
         </a>
     </div>
     <div>
 
-    <a href="{{ .pdf }}">
-        {{ .title }}
-    </a>
-
-    <p>
-        DOI:
-        <a href="https://doi.org/{{ .doi }}">
-            {{ .doi }}
+        <a href="{{ .context.pdf }}" class="paper-title">
+            {{ .context.title }}
         </a>
-    </p>
 
-    <p>
-        {{ range .authors }}
-            {{ if .me }}
-                <strong class="myname">{{ .name }}</strong>
-            {{ else }}
-                <a href="{{.url}}">{{ .name }}</a>
-            {{ end}}
-        {{ end }}
-    </p>
+        <p class="paper-authors">
+            {{ range .context.authors }}
+                {{ if .me }}
+                    <strong class="myname">{{ .name }}</strong>
+                {{ else }}
+                    <a href="{{.url}}">{{ .name }}</a>
+                {{ end}}
+            {{ end }}
+        </p>
 
-    <p>
-        {{ .venue }}
-    </p>
+        <p class="paper-venue">
+            {{ .context.venue }} <a href="https://doi.org/{{ .context.doi }}">{{ .context.doi }}</a>
+        </p>
 
-    <p>
-        {{ .tldr }}
-    </p>
+        <p class="paper-tldr"><iconify-icon icon="fluent:info-20-regular"></iconify-icon>
+            {{ .context.tldr }}
+        </p>
 
-    <p>
-        {{ range .links }}
-            <a href="{{.url}}">{{ .name }}</a>
-        {{ end }}
-    </p>
+        <p class="paper-links">
+            {{ if .context.pdf }}
+                <a href="{{.context.pdf}}"><iconify-icon icon="fluent:document-pdf-20-regular" style="vertical-align: middle; color: #b2256b;"></iconify-icon>paper</a>
+            {{ end }}
+
+            {{ if .context.bibtex }}
+                <a onclick="showPopup('{{.context.bibtex}}');"><iconify-icon icon="fluent:text-quote-20-filled" style="vertical-align: middle; color: #354355;"></iconify-icon>bibtex</a>
+            {{ end }}
+        </p>
 
     </div>
 </div>

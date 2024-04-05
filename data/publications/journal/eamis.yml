@@ -1,0 +1,41 @@
+title: Efficiency-aware multiple importance sampling for bidirectional rendering algorithms
+
+date: 2022-07-01
+
+authors:
+  - name: Pascal Grittmann
+    me: true
+
+  - name: Ömercan Yazici
+    url: https://graphics.cg.uni-saarland.de/people/yazici.html
+
+  - name: Iliyan Georgiev
+    url: https://iliyan.com
+
+  - name: Philipp Slusallek
+    url: https://graphics.cg.uni-saarland.de/people/slusallek.html
+
+teaser: /content/publications/eamis/teaser.jpg
+
+venue: ACM Trans. Graph. (SIGGRAPH 2022)
+
+tldr: Shows how to optimize parameters for bidirectional rendering algorithms (e.g., number of light paths, number of connections).
+
+pdf: /content/publications/eamis/Efficiency_Aware_MIS.pdf
+
+doi: 10.1145/3528223.3530126
+
+bibtex: |
+  @article{Grittmann2022,
+    author          = {Grittmann, Pascal and Yazici, Ömercan and Georgiev, Iliyan and Slusallek, Philipp},
+    title           = {Efficiency-Aware Multiple Importance Sampling for Bidirectional Rendering Algorithms},
+    journal         = {ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)},
+    numpages        = {12},
+    volume          = {41},
+    number          = {4},
+    articleno       = {80},
+    year            = {2022},
+    month           = {jul},
+    doi             = {10.1145/3528223.3530126},
+    publisher       = {ACM}
+  }
