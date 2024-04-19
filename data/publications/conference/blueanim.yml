@@ -1,0 +1,45 @@
+title: Perceptual error optimization for Monte Carlo animation rendering
+
+date: 2023-11-01
+
+authors:
+  - name: Miša Korać
+    url: https://graphics.cg.uni-saarland.de/people/korac.html
+
+  - name: Corentin Salaün
+    url: https://iribis.github.io/
+
+  - name: Iliyan Georgiev
+    url: https://iliyan.com
+
+  - name: Pascal Grittmann
+    me: true
+
+  - name: Philipp Slusallek
+    url: https://graphics.cg.uni-saarland.de/people/slusallek.html
+
+  - name: Karol Myszkowski
+    url: https://people.mpi-inf.mpg.de/~karol/
+
+  - name: Gurprit Singh
+    url: https://people.mpi-inf.mpg.de/~gsingh/
+
+teaser: /content/publications/blueanim/blueanim-teaser.jpg
+
+venue: SIGGRAPH Asia 2023
+
+tldr: Less perceptible noise in low-sample-count animation renderings via precomputed blue noise patterns
+
+pdf: /content/publications/blueanim/korac-2023_perceptual_error_optimization_for_animation_rendering.pdf
+
+doi: 10.1145/3610548.3618146
+
+bibtex: |
+  @inproceedings{Korac:2023:PerceptualErrorOptimizationAnimation,
+    author = {Mi\v{s}a Kora\'{c} and Corentin Sala\"{u}n and Iliyan Georgiev and Pascal Grittmann and Philipp Slusallek and Karol Myszkowski and Gurprit Singh},
+    title = {Perceptual error optimization for Monte Carlo animation rendering},
+    booktitle = {ACM SIGGRAPH Asia 2023 Conference Proceedings},
+    year = {2023},
+    doi = {10.1145/3610548.3618146},
+    isbn = {979-8-4007-0315-7/23/12}
+  }

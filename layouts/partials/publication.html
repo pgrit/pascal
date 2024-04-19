@@ -1,9 +1,5 @@
 <div style="margin-bottom: 3em;">
-    {{/*  {{ if mod .pubidx 2 }}  */}}
-    <div style="float: left; height: 200px; overflow: hidden; margin-right: 2em; ">
-    {{/*  {{ else }}
-    <div style="float: right; height: 200px; overflow: hidden; margin-right: 10px; ">
-    {{ end }}  */}}
+    <div style="float: left; height: 200px; overflow: hidden; margin-right: 2em; max-width: 350px;">
         <a href="{{ .context.pdf }}">
             <img src="{{ .context.teaser }}" height="100%" />
         </a>
@@ -15,12 +11,18 @@
         </a>
 
         <p class="paper-authors">
+            {{ $i := 1 }}
+            {{ len .context.authors }}
             {{ range .context.authors }}
                 {{ if .me }}
                     <strong class="myname">{{ .name }}</strong>
                 {{ else }}
                     <a href="{{.url}}">{{ .name }}</a>
                 {{ end}}
+                {{/*  {{ if $i < len .context.authors }}
+                    ,
+                    {{ $i := add i 1 }}
+                {{ end }}  */}}
             {{ end }}
         </p>
 
