@@ -1,0 +1,25 @@
+title: Rethinking multiple importance sampling for general and efficient Monte Carlo rendering
+
+date: 2023-10-01
+
+authors:
+  - name: Pascal Grittmann
+    me: true
+
+teaser: /content/publications/phd/teaser.png
+
+venue: PhD thesis, 2023, Saarland University
+
+tldr: Provides a coherent picture of our works on "variance-aware MIS", "correlation-aware MIS", and "efficiency-aware MIS".
+
+pdf: /content/publications/phd/thesis.pdf
+
+doi: 20.500.11880/37368
+
+bibtex: |
+  @phdthesis{Grittmann2023,
+    author  = {Grittmann, Pascal},
+    title   = {Rethinking multiple importance sampling for general and efficient Monte Carlo rendering},
+    school  = {Saarland University},
+    year    = {2023},
+  }

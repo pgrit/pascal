@@ -1,0 +1,38 @@
+title: Correlation-aware multiple importance sampling for bidirectional rendering algorithms
+
+date: 2018-06-01
+
+authors:
+  - name: Pascal Grittmann
+    me: true
+
+  - name: Arsène Pérard-Gayot
+    url: https://graphics.cg.uni-saarland.de/people/perard-gayot.html
+
+  - name: Philipp Slusallek
+    url: https://graphics.cg.uni-saarland.de/people/slusallek
+
+  - name: Jaroslav Křivánek
+    url: http://cgg.mff.cuni.cz/~jaroslav/
+
+teaser: /content/publications/lpm/grittmann-2018-lwpm-teaser.jpg
+
+venue: Computer Graphics Forum (EGSR 2018)
+
+tldr: Shows how to use a minimal subset of the VCM algorithm for efficient caustic rendering.
+
+pdf: /content/publications/lpm/grittmann-2018-lwpm-paper.pdf
+
+doi: 10.1111/cgf.142628
+
+bibtex: |
+  @article {Grittmann2018,
+    author = {Pascal Grittmann and Ars{\`{e}}ne P{\'{e}}rard-Gayot and Philipp Slusallek and Jaroslav K{\v{r}}iv{\'a}nek},
+    title = {Efficient Caustic Rendering with Lightweight Photon Mapping},
+    journal = {Computer Graphics Forum},
+    note = {EGSR~'18},
+    volume = {37},
+    number = {4},
+    issn = {1467-8659},
+    year = {2018},
+  }

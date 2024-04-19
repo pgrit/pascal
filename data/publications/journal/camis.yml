@@ -1,0 +1,34 @@
+title: Correlation-aware multiple importance sampling for bidirectional rendering algorithms
+
+date: 2021-05-01
+
+authors:
+  - name: Pascal Grittmann
+    me: true
+
+  - name: Iliyan Georgiev
+    url: https://iliyan.com
+
+  - name: Philipp Slusallek
+    url: https://graphics.cg.uni-saarland.de/people/slusallek
+
+teaser: /content/publications/camis/grittmann-2021-camis-teaser.jpg
+
+venue: Computer Graphics Forum (Eurographics 2021)
+
+tldr: Identifies and fixes an MIS weighting issue in bidirectional rendering algorithms. While not theoretically optimal, the fix is practical and easy to compute.
+
+pdf: /content/publications/camis/grittmann-2021-eg-camis.pdf
+
+doi: 10.1111/cgf.142628
+
+bibtex: |
+  @article{Grittmann2021,
+    author          = {Grittmann, Pascal and Georgiev, Iliyan and Slusallek, Philipp},
+    title           = {Correlation-Aware Multiple Importance Sampling for Bidirectional Rendering Algorithms},
+    journal         = {Comput. Graph. Forum (EG 2021)},
+    volume          = {40},
+    number          = {2},
+    year            = {2021},
+    doi             = {10.1111/cgf.142628},
+  }

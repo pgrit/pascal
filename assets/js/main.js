@@ -35,3 +35,18 @@ function addCollapseLogic() {
     }
 }
 window.addEventListener("load", addCollapseLogic);
+
+function storeScrollPos() {
+    let main = document.getElementsByTagName("main")[0];
+    localStorage.setItem("scrollPosition", main.scrollTop);
+    console.log(main.scrollTop());
+}
+window.addEventListener("beforeunload", storeScrollPos);
+
+function restoreScrollPos() {
+    if(localStorage.scrollPosition) {
+        let main = document.getElementsByTagName("main")[0];
+        main.scrollTop = localStorage.getItem("scrollPosition");
+    }
+}
+window.addEventListener("load", restoreScrollPos);

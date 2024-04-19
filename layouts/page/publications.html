@@ -40,7 +40,7 @@
 
     <div>
         {{.Content}}
-        <div>
+        <div class="paper-group">
             <h2><a class="collapse-btn active">Peer-reviewed journal papers</a> </h2>
             <div class="collapse-content">
                 {{ $pubidx := 0 }}
@@ -51,11 +51,22 @@
             </div>
         </div>
 
-        <div>
+        <div class="paper-group">
             <h2><a class="collapse-btn active">Peer-reviewed conference papers</a></h2>
             <div class="collapse-content">
                 {{ $pubidx := 0 }}
                 {{ range (sort $.Site.Data.publications.conference "date" "desc") }}
+                    {{ partial "publication.html" (dict "context" . "pubidx" $pubidx) }}
+                    {{ $pubidx = add $pubidx 1 }}
+                {{ end }}
+            </div>
+        </div>
+
+        <div class="paper-group">
+            <h2><a class="collapse-btn active">Theses</a></h2>
+            <div class="collapse-content">
+                {{ $pubidx := 0 }}
+                {{ range (sort $.Site.Data.publications.theses "date" "desc") }}
                     {{ partial "publication.html" (dict "context" . "pubidx" $pubidx) }}
                     {{ $pubidx = add $pubidx 1 }}
                 {{ end }}

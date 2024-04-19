@@ -1,10 +1,10 @@
 <div style="margin-bottom: 3em;">
-    <div style="float: left; height: 200px; overflow: hidden; margin-right: 2em; max-width: 350px;">
+    <div class="paper-teaser">
         <a href="{{ .context.pdf }}">
             <img src="{{ .context.teaser }}" height="100%" />
         </a>
     </div>
-    <div>
+    <div class="paper-summary">
 
         <a href="{{ .context.pdf }}" class="paper-title">
             {{ .context.title }}
@@ -12,17 +12,15 @@
 
         <p class="paper-authors">
             {{ $i := 1 }}
-            {{ len .context.authors }}
+            {{ $num := len .context.authors }}
             {{ range .context.authors }}
                 {{ if .me }}
-                    <strong class="myname">{{ .name }}</strong>
+                    <strong class="myname">{{ .name }}</strong>{{ if lt $i $num }},{{ end }}
                 {{ else }}
-                    <a href="{{.url}}">{{ .name }}</a>
+                    <a href="{{.url}}">{{ .name }}</a>{{ if lt $i $num }},{{ end }}
                 {{ end}}
-                {{/*  {{ if $i < len .context.authors }}
-                    ,
-                    {{ $i := add i 1 }}
-                {{ end }}  */}}
+
+                {{ $i = add $i 1 }}
             {{ end }}
         </p>
 

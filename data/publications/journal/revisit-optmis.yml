@@ -1,0 +1,36 @@
+title: Revisiting correlated mixture sampling for rendering applications
+
+date: 2023-07-01
+
+authors:
+  - name: Qingqin Hua
+    url: https://graphics.cg.uni-saarland.de/people/hua.html
+
+  - name: Pascal Grittmann
+    me: true
+
+  - name: Philipp Slusallek
+    url: https://graphics.cg.uni-saarland.de/people/slusallek.html
+
+teaser: /content/publications/revisit-optmis/hua-2023-sig-cms-teaser.png
+
+venue: ACM Trans. Graph. (SIGGRAPH 2023)
+
+tldr: Revisits and generalizes the math behind optimal multiple importance sampling to make it more practical
+
+pdf: /content/publications/revisit-optmis/hua-2023-sig-cms.pdf
+
+doi: 10.1145/3592435
+
+bibtex: |
+  @article{Hua2023,
+    author          = {Hua, Qingqin and Grittmann, Pascal and Slusallek, Philipp},
+    title           = {Revisiting Controlled Mixture Sampling for Rendering Applications},
+    journal         = {ACM Transactions on Graphics (Proceedings of SIGGRAPH 2023)},
+    volume          = {42},
+    number          = {4},
+    year            = {2023},
+    month           = {jul},
+    doi             = {10.1145/3592435},
+    publisher       = {ACM}
+  }

@@ -1,0 +1,47 @@
+title: Optimal Multiple Importance Sampling
+
+date: 2019-07-01
+
+authors:
+  - name: Ivo Kondapaneni
+    url:
+
+  - name: Petr Vévoda
+    url:
+
+  - name: Pascal Grittmann
+    me: true
+
+  - name: Tomáš Skřivan
+    url:
+
+  - name: Philipp Slusallek
+    url: https://graphics.cg.uni-saarland.de/people/slusallek.html
+
+  - name: Jaroslav Křivánek
+    url: http://cgg.mff.cuni.cz/~jaroslav/
+
+teaser: /content/publications/optmis/konda-2019-siggraph-optimal-mis-teaser.jpg
+
+venue: ACM Trans. Graph. (SIGGRAPH 2019)
+
+tldr: Derives the theoretically optimal weights to use when combining multiple sampling techniques, and shows that these weights can be computable in some simple practical applications.
+
+pdf: /content/publications/optmis/konda-2019-siggraph-optimal-mis.pdf
+
+doi: 10.1145/3306346.3323009
+
+bibtex: |
+  @article{Kondapaneni2019,
+    author          = {Kondapaneni Ivo and V{\'{e}}voda, Petr and Grittmann, Pascal and Sk{\v{r}}ivan, Tom{\'{a}}{\v{s}} and Slusallek, Philipp and K{\v{r}}iv{\'{a}}nek, Jaroslav},
+    title           = {Optimal Multiple Importance Sampling},
+    journal         = {ACM Transactions on Graphics (Proceedings of SIGGRAPH 2019)},
+    pages           = {37:1--37:14},
+    volume          = {38},
+    number          = {4},
+    year            = 2019,
+    month           = jul,
+    date            = {2019-07-28/2019-08-01},
+    doi             = {10.1145/3306346.3323009},
+    publisher       = {ACM}
+  }

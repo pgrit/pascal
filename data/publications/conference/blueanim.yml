@@ -35,7 +35,7 @@ pdf: /content/publications/blueanim/korac-2023_perceptual_error_optimization_for
 doi: 10.1145/3610548.3618146
 
 bibtex: |
-  @inproceedings{Korac:2023:PerceptualErrorOptimizationAnimation,
+  @inproceedings{Korac2023,
     author = {Mi\v{s}a Kora\'{c} and Corentin Sala\"{u}n and Iliyan Georgiev and Pascal Grittmann and Philipp Slusallek and Karol Myszkowski and Gurprit Singh},
     title = {Perceptual error optimization for Monte Carlo animation rendering},
     booktitle = {ACM SIGGRAPH Asia 2023 Conference Proceedings},

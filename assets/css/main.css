@@ -1,22 +1,56 @@
+html {
+  height: 100%;
+  background-color: #3c4d63;
+}
+
 body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   color: #222;
-  font-family: sans-serif;
+  font-family: system-ui;
   line-height: 1.5;
-  margin: 1rem;
-  max-width: 900px;
   margin: auto;
+  max-width: 1100px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 5px 5px #1f3032;
+}
+
+main {
+  flex: 1 1 auto;
+  overflow: auto;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 header {
-  margin-bottom: 1rem;
+  flex: 0 0 auto;
+}
+
+header > h1 {
+  padding-left: 1em;
+  margin-bottom: 5px;
 }
 
 nav {
-  margin-bottom: 2em;
-  background-color: #e8faf0;
+  background-color: #3e4d63;
   padding: 0.25em;
-  border: 2px solid #f8fcfa;
-  outline: 2px solid #c2d5c9;
 }
 
 nav > ul {
@@ -33,9 +67,11 @@ nav a {
   text-decoration: none;
   background-color: none;
   padding: 1em;
+  color: #eaf5fb;
 }
   nav a:hover {
     background-color: white;
+    color: #3e4d63;
   }
 
 footer {
@@ -68,10 +104,11 @@ iconify-icon {
   left: 0;
   top: 0;
   display: flex;
-  background-color: #c6e1e4cf;
+  background-color: #273141d1;
 }
   .popup.show {
     visibility: visible;
+    z-index: 1000000;
   }
 
 .popup-content {
@@ -90,15 +127,17 @@ iconify-icon {
 }
 
 .button {
-  background-color: #d4eae5;
+  background-color: #ffdea2;
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 0.5em;
-  padding-top: 0.5em;
-  border-radius: 4px;
-
-  color: black;
+  padding-top: 0.3em;
+  color: #251b07;
   text-decoration: none;
+}
+.button:hover {
+  background-color: #ffe9c1;
+  color: #000;
 }
 
 .paper-title {
@@ -128,6 +167,24 @@ iconify-icon {
 .paper-links {
   margin-top: 0.5em;
   margin-bottom: 0.0em;
+}
+
+.paper-teaser {
+  float: left;
+  height: 200px;
+  overflow: hidden;
+  margin-right: 2em;
+  max-width: 350px;
+}
+
+.paper-summary {
+  min-height: 200px
+}
+
+.paper-group > h2 {
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 .collapse-content {

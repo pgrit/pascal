@@ -1,0 +1,45 @@
+title: |
+  EARS: Efficiency-Aware Russian Roulette and Splitting
+
+date: 2022-07-01
+
+authors:
+  - name: Alexander Rath
+    url: https://graphics.cg.uni-saarland.de/people/rath.html
+
+  - name: Pascal Grittmann
+    me: true
+
+  - name: Sebastian Herholz
+    url:
+
+  - name: Philippe Weier
+    url: https://graphics.cg.uni-saarland.de/people/weier.html
+
+  - name: Philipp Slusallek
+    url: https://graphics.cg.uni-saarland.de/people/slusallek.html
+
+teaser: /content/publications/ears/rath-2022-ears-teaser.jpg
+
+venue: ACM Trans. Graph. (SIGGRAPH 2022)
+
+tldr: Allocates computation where it matters most by optimizing path termination probabilities and splitting factors.
+
+pdf: /content/publications/ears/rath-2022-ears.pdf
+
+doi: 10.1145/3528223.3530168
+
+bibtex: |
+  @article{Rath2022,
+    author          = {Rath, Alexander and Grittmann, Pascal and Herholz, Sebastian and Weier, Philippe and Slusallek, Philipp},
+    title           = {EARS: Efficiency-Aware Russian Roulette and Splitting},
+    journal         = {ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)},
+    numpages        = {14},
+    volume          = {41},
+    number          = {4},
+    articleno       = {81},
+    year            = {2022},
+    month           = {jul},
+    doi             = {10.1145/3528223.3530168},
+    publisher       = {ACM}
+  }

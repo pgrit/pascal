@@ -1,0 +1,47 @@
+title: Variance-Aware Path Guiding
+
+date: 2020-07-01
+
+authors:
+  - name: Alexander Rath
+    url: https://graphics.cg.uni-saarland.de/people/rath.html
+
+  - name: Pascal Grittmann
+    me: true
+
+  - name: Sebastian Herholz
+    url:
+
+  - name: Petr Vévoda
+    url:
+
+  - name: Philipp Slusallek
+    url: https://graphics.cg.uni-saarland.de/people/slusallek.html
+
+  - name: Jaroslav Křivánek
+    url: http://cgg.mff.cuni.cz/~jaroslav/
+
+teaser: /content/publications/varaware-pg/rath-2020-siggraph-guiding-teaser.jpg
+
+venue: ACM Trans. Graph. (SIGGRAPH 2020)
+
+tldr: Derives a better target function that path guiding methods should learn - faster rendering for free!
+
+pdf: /content/publications/varaware-pg/rath-2020-siggraph-guiding-paper.pdf
+
+doi: 10.1145/3386569.3392441
+
+bibtex: |
+  @article{Rath2020,
+    author          = {Rath, Alexander and Grittmann, Pascal and Herholz, Sebastian and V{\'{e}}voda, Petr and Slusallek, Philipp and K{\v{r}}iv{\'{a}}nek, Jaroslav},
+    title           = {Variance-Aware Path Guiding},
+    journal         = {ACM Transactions on Graphics (Proceedings of SIGGRAPH 2020)},
+    pages           = {151:1--151:12},
+    volume          = {39},
+    number          = {4},
+    year            = 2020,
+    month           = jul,
+    date            = {2020-07-17/2020-07-20},
+    doi             = {10.1145/3386569.3392441},
+    publisher       = {ACM}
+  }

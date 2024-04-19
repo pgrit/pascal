@@ -1,0 +1,26 @@
+title: Implementing a Parallel Renderer with Vertex Connection and Merging
+
+date: 2016-01-01
+
+authors:
+  - name: Pascal Grittmann
+    me: true
+
+teaser: /content/publications/bsc/bsc-teaser.jpg
+
+venue: Bachelor Thesis, 2016, Saarland University
+
+tldr: Implementation of a hybrid CPU / GPU renderer with vertex connection and merging (VCM).
+
+pdf: /content/publications/bsc/grittmann-2016-bt.pdf
+
+doi:
+
+bibtex: |
+  @mastersthesis{Grittmann2016,
+    author = {Grittmann, Pascal},
+    title  = {Implementing a Parallel Renderer with Vertex Connection and Merging},
+    type   = {Bachelor's Thesis},
+    school = {Saarland University},
+    year   = {2016},
+  }
