@@ -1,7 +1,7 @@
 +++
 title = 'Bio'
 date = 2024-03-22T10:41:20+01:00
-draft = true
+draft = false
 +++
 
 I'm a postdoc in [Computer Graphics](https://graphics.cg.uni-saarland.de) at [Saarland University](https://www.uni-saarland.de). I got my PhD (Dr.-Ing.) at Saarland University (in 2024), spent a few months as a Marie Skłodowska-Curie early-stage researcher in the [Computer Graphics group](https://cgg.mff.cuni.cz) at [Charles University](https://cuni.cz) in Prague in 2017, and got my MSc in computer science (2018) and BSc in Media Informatics (2016) at Saarland University.

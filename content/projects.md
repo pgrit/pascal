@@ -2,7 +2,7 @@
 title = 'Contact'
 layout = 'contact'
 date = 2024-03-22T10:41:20+01:00
-draft = true
+draft = false
 +++
 
 ## Adaptive and lightweight bidirectional rendering algorithms 2024 - 2027
