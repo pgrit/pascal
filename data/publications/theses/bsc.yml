@@ -16,6 +16,8 @@ pdf: /content/publications/bsc/grittmann-2016-bt.pdf
 
 doi:
 
+giturl: https://github.com/AnyDSL/imbatracer
+
 bibtex: |
   @mastersthesis{Grittmann2016,
     author = {Grittmann, Pascal},

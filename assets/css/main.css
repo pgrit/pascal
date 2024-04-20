@@ -51,6 +51,7 @@ header > h1 {
 nav {
   background-color: #3e4d63;
   padding: 0.25em;
+  overflow: hidden;
 }
 
 nav > ul {
@@ -167,18 +168,37 @@ iconify-icon {
 .paper-links {
   margin-top: 0.5em;
   margin-bottom: 0.0em;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+:root {
+  --teaser-width: 256px;
+  --teaser-gap: 2em;
+  --teaser-height: 160px;
 }
 
 .paper-teaser {
-  float: left;
-  height: 200px;
+  max-width: var(--teaser-width);
+  height: var(--teaser-height);
   overflow: hidden;
-  margin-right: 2em;
-  max-width: 350px;
+  margin-right: var(--teaser-gap);
 }
 
 .paper-summary {
-  min-height: 200px
+  min-height: var(--teaser-height);
+}
+
+@media (min-width: 740px) {
+  .paper-teaser {
+    float: left;
+  }
+
+  .paper-summary {
+    margin-left: calc(var(--teaser-width) + var(--teaser-gap));
+  }
 }
 
 .paper-group > h2 {

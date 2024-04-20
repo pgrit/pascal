@@ -29,6 +29,8 @@ tldr: Derives a better target function that path guiding methods should learn - 
 
 pdf: /content/publications/varaware-pg/rath-2020-siggraph-guiding-paper.pdf
 
+giturl: https://github.com/iRath96/variance-aware-path-guiding
+
 doi: 10.1145/3386569.3392441
 
 bibtex: |

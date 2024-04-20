@@ -20,6 +20,8 @@ tldr: Revisits and generalizes the math behind optimal multiple importance sampl
 
 pdf: /content/publications/revisit-optmis/hua-2023-sig-cms.pdf
 
+giturl: https://github.com/qingqhua/ControlledMixtureSampling
+
 doi: 10.1145/3592435
 
 bibtex: |

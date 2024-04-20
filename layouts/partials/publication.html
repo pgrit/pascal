@@ -34,7 +34,11 @@
 
         <p class="paper-links">
             {{ if .context.pdf }}
-                <a href="{{.context.pdf}}"><iconify-icon icon="fluent:document-pdf-20-regular" style="vertical-align: middle; color: #b2256b;"></iconify-icon>paper</a>
+                <a href="{{.context.pdf}}"><iconify-icon icon="fluent:document-pdf-20-regular" style="vertical-align: middle; color: #b2256b;"></iconify-icon>pdf</a>
+            {{ end }}
+
+            {{ if .context.giturl }}
+                <a href="{{.context.giturl}}"><iconify-icon icon="bi:github" style="vertical-align: middle; color: black; margin-right: 5px; margin-bottom: 3px;"></iconify-icon>GitHub</a>
             {{ end }}
 
             {{ if .context.bibtex }}

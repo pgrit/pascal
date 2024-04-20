@@ -23,6 +23,8 @@ tldr: Shows how to optimize parameters for bidirectional rendering algorithms (e
 
 pdf: /content/publications/eamis/Efficiency_Aware_MIS.pdf
 
+giturl: https://github.com/pgrit/EfficiencyAwareMIS
+
 doi: 10.1145/3528223.3530126
 
 bibtex: |

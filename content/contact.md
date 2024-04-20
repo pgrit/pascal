@@ -15,4 +15,10 @@ Saarland Informatics Campus E1.1, Room E17
 
 Germany
 
+<p>
 {{< obfuscated_mail mail="grittmann@cg.uni-saarland.de" >}}
+</p>
+
+<p>
+{{< obfuscated_mail mail="pascal@randomrays.eu" >}}
+</p>

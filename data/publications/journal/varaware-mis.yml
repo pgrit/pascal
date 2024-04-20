@@ -23,6 +23,8 @@ tldr: Identifies and fixes an MIS weighting issue in bidirectional rendering alg
 
 pdf: /content/publications/varaware-mis/varaware-mis.pdf
 
+giturl: https://github.com/pgrit/var-aware-mis-pbrt
+
 doi: 10.1145/3355089.3356515
 
 bibtex: |

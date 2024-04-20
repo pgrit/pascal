@@ -39,6 +39,43 @@
     </script>
 
     <div>
+        Reviewing conflicts based on recent co-authors (as of 2024):
+
+        {{ $nowYear := time.Now.Year }}
+        {{ $conflictThreshold := sub $nowYear 3 }}
+
+        {{ $allCoAuthors := ( slice "Philipp Slusallek" ) }}
+        {{ $allCoAuthorLinks := ( slice "https://graphics.cg.uni-saarland.de/people/slusallek" ) }}
+        {{ range $.Site.Data.publications.journal }}
+            {{ if gt (time.AsTime .date).Year $conflictThreshold }}
+                {{ range .authors }}
+                    {{ if and (not .me) (not (in $allCoAuthors .name)) }}
+                        {{ $allCoAuthors = append .name $allCoAuthors }}
+                        {{ $allCoAuthorLinks = append .url $allCoAuthorLinks }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+        {{ range $.Site.Data.publications.conference }}
+            {{ if gt (time.AsTime .date).Year $conflictThreshold }}
+                {{ range .authors }}
+                    {{ if and (not .me) (not (in $allCoAuthors .name)) }}
+                        {{ $allCoAuthors = append .name $allCoAuthors }}
+                        {{ $allCoAuthorLinks = append .url $allCoAuthorLinks }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+
+        {{ $i := 0 }}
+        {{ $last := sub (len $allCoAuthors) 1 }}
+        {{ range $allCoAuthors }}
+            <a href="{{ index $allCoAuthorLinks $i }}">{{ . }}</a>{{if lt $i $last}}, {{ end }}
+            {{ $i = add $i 1}}
+        {{ end }}
+    </div>
+
+    <div>
         {{.Content}}
         <div class="paper-group">
             <h2><a class="collapse-btn active">Peer-reviewed journal papers</a> </h2>

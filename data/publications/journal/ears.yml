@@ -29,6 +29,8 @@ pdf: /content/publications/ears/rath-2022-ears.pdf
 
 doi: 10.1145/3528223.3530168
 
+giturl: https://github.com/iRath96/ears
+
 bibtex: |
   @article{Rath2022,
     author          = {Rath, Alexander and Grittmann, Pascal and Herholz, Sebastian and Weier, Philippe and Slusallek, Philipp},

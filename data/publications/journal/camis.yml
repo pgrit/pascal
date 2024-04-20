@@ -20,6 +20,8 @@ tldr: Identifies and fixes an MIS weighting issue in bidirectional rendering alg
 
 pdf: /content/publications/camis/grittmann-2021-eg-camis.pdf
 
+giturl: https://github.com/pgrit/MisForCorrelatedBidir
+
 doi: 10.1111/cgf.142628
 
 bibtex: |
