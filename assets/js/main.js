@@ -39,7 +39,6 @@ window.addEventListener("load", addCollapseLogic);
 function storeScrollPos() {
     let main = document.getElementsByTagName("main")[0];
     localStorage.setItem("scrollPosition", main.scrollTop);
-    console.log(main.scrollTop());
 }
 window.addEventListener("beforeunload", storeScrollPos);
 
