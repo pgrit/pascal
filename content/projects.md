@@ -1,6 +1,5 @@
 +++
-title = 'Contact'
-layout = 'contact'
+title = 'Projects'
 date = 2024-03-22T10:41:20+01:00
 draft = false
 +++
