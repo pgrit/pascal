@@ -7,9 +7,9 @@ draft = false
 I'm a postdoc in [Computer Graphics](https://graphics.cg.uni-saarland.de) at [Saarland University](https://www.uni-saarland.de). I got my PhD (Dr.-Ing.) at Saarland University (in 2024), spent a few months as a Marie Skłodowska-Curie early-stage researcher in the [Computer Graphics group](https://cgg.mff.cuni.cz) at [Charles University](https://cuni.cz) in Prague in 2017, and got my MSc in computer science (2018) and BSc in Media Informatics (2016) at Saarland University.
 
 [My page at Saarland University](https://graphics.cg.uni-saarland.de/people/grittmann.html),
-<a href="{{https://github.com/pgrit}}"><iconify-icon icon="bi:github" style="vertical-align: middle; color: black; margin-right: 5px; margin-bottom: 3px;"></iconify-icon>GitHub</a>,
-<a href="{{https://orcid.org/0000-0002-5325-3744}}"><iconify-icon icon="academicons:orcid" style="vertical-align: middle; color: #a6ce39; margin-right: 5px; margin-bottom: 3px;"></iconify-icon>orcid.org/0000-0002-5325-3744</a>,
-<a href="{{https://scholar.google.com/citations?user=OgL5bOgAAAAJ}}"><iconify-icon icon="academicons:google-scholar" style="vertical-align: middle; color: #4285f4; margin-right: 0px; margin-bottom: 3px;"></iconify-icon>Google Scholar</a>
+<a href="https://github.com/pgrit"><iconify-icon icon="bi:github" style="vertical-align: middle; color: black; margin-right: 5px; margin-bottom: 3px;"></iconify-icon>GitHub</a>,
+<a href="https://orcid.org/0000-0002-5325-3744"><iconify-icon icon="academicons:orcid" style="vertical-align: middle; color: #a6ce39; margin-right: 5px; margin-bottom: 3px;"></iconify-icon>orcid.org/0000-0002-5325-3744</a>,
+<a href="https://scholar.google.com/citations?user=OgL5bOgAAAAJ"><iconify-icon icon="academicons:google-scholar" style="vertical-align: middle; color: #4285f4; margin-right: 0px; margin-bottom: 3px;"></iconify-icon>Google Scholar</a>
 
 
 ## Research goals
