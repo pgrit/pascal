@@ -5,20 +5,14 @@ date = 2024-03-22T10:41:20+01:00
 draft = false
 +++
 
-Pascal Grittmann
-
-Saarland University
-
-Saarland Informatics Campus E1.1, Room E17
-
-66123 Saarbrücken
-
+Pascal Grittmann\
+Saarland University\
+Saarland Informatics Campus E1.1, Room E17\
+66123 Saarbrücken\
 Germany
 
-<p>
-{{< obfuscated_mail mail="grittmann@cg.uni-saarland.de" >}}
-</p>
-
-<p>
+{{< obfuscated_mail mail="grittmann@cg.uni-saarland.de" >}} \
 {{< obfuscated_mail mail="pascal@randomrays.eu" >}}
-</p>
+
+
+*Languages*: English, German
