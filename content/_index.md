@@ -12,6 +12,7 @@ I'm a postdoc in [Computer Graphics](https://graphics.cg.uni-saarland.de) at [Sa
 <a href="https://scholar.google.com/citations?user=OgL5bOgAAAAJ"><iconify-icon icon="academicons:google-scholar" style="vertical-align: middle; color: #4285f4; margin-right: 0px; margin-bottom: 3px;"></iconify-icon>Google Scholar</a>
 
 <a rel="me" href="https://mastodon.gamedev.place/@PascalGrittmann">Mastodon</a>
+<a rel="me" href="https://twitter.com/PGrittmann">X / Twitter</a>
 
 ## Research goals
 
