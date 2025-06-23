@@ -1,0 +1,36 @@
+title: Less can be more: A footprint-driven heuristic to skip wasted connections and merges in bidirectional rendering
+
+date: 2025-06-25
+
+authors:
+  - name: Ömercan Yazici
+    url: https://graphics.cg.uni-saarland.de/people/yazici.html
+
+  - name: Pascal Grittmann
+    me: true
+
+  - name: Philipp Slusallek
+    url: https://graphics.cg.uni-saarland.de/people/slusallek.html
+
+teaser: /content/publications/lesscanbemore/lesscanbemore-teaser.jpg
+
+venue: EGSR 2025
+
+tldr: A purely PDF-based heuristic to avoid wasted connections and merges in bidirectional rendering.
+
+pdf: /content/publications/lesscanbemore/sr20251180.pdf
+
+doi: 10.2312/sr.20251180
+
+bibtex: |
+  @inproceedings{Yazici2025,
+    booktitle = {Eurographics Symposium on Rendering},
+    editor = {Wang, Beibei and Wilkie, Alexander},
+    title = {{Less can be more: A Footprint-driven Heuristic to skip Wasted Connections and Merges in Bidirectional Rendering}},
+    author = {Yazici, Ömercan and Grittmann, Pascal and Slusallek, Philipp},
+    year = {2025},
+    publisher = {The Eurographics Association},
+    ISSN = {1727-3463},
+    ISBN = {978-3-03868-292-9},
+    DOI = {10.2312/sr.20251180}
+  }
