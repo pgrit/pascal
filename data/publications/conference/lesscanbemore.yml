@@ -20,6 +20,8 @@ tldr: A purely PDF-based heuristic to avoid wasted connections and merges in bid
 
 pdf: /content/publications/lesscanbemore/sr20251180.pdf
 
+giturl: https://github.com/PearCoding/FootprintVCM
+
 doi: 10.2312/sr.20251180
 
 bibtex: |

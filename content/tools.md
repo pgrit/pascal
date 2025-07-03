@@ -27,3 +27,7 @@ A Python library to assemble rendered images into comparison figures. Initially 
 ### [texsnip](https://github.com/pgrit/texsnip)
 
 A Python module to compile pieces of LaTeX code into a .pdf and optionally convert to .png or .pptx. I use this, e.g., to create math snippets for figures.
+
+### [beampdf](https://github.com/pgrit/beampdf)
+
+A cross-platform slideshow presentation software for PDF files, supporting quick file switching, quick navigation, speaker notes, and video playback.
