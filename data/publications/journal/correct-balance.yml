@@ -1,0 +1,37 @@
+title: "Correct your balance heuristic: Optimizing balance-style multiple importance sampling weights"
+
+date: 2023-07-01
+
+authors:
+  - name: Qingqin Hua
+    url: https://graphics.cg.uni-saarland.de/people/hua.html
+
+  - name: Pascal Grittmann
+    me: true
+
+  - name: Philipp Slusallek
+    url: https://graphics.cg.uni-saarland.de/people/slusallek.html
+
+teaser: /content/publications/correct-balance/hua-2025-teaser.png
+
+venue: ACM Trans. Graph. (SIGGRAPH 2025)
+
+tldr: A practical scheme to correct MIS weights via a simple direct search.
+pdf: /content/publications/correct-balance/hua-2025.pdf
+
+giturl: https://github.com/qingqhua/Correct-your-balance-heuristic
+
+doi: 10.1145/3730819
+
+bibtex: |
+  @article{Hua2023,
+    author          = {Hua, Qingqin and Grittmann, Pascal and Slusallek, Philipp},
+    title           = {Correct your balance heuristic: Optimizing balance-style multiple importance sampling weights},
+    journal         = {ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)},
+    volume          = {44},
+    number          = {4},
+    year            = {2025},
+    month           = {jul},
+    doi             = {10.1145/3730819},
+    publisher       = {ACM}
+  }
