@@ -2,6 +2,8 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = "Pascal Grittmann"
 
+disableKinds = ['taxonomy', 'term']
+
 [markup.goldmark.renderer]
   unsafe = true # Allow HTML in md files
 

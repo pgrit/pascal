@@ -1,7 +1,7 @@
 {{ define "main" }}
     <div class="popup" onmousedown="hidePopup(this, this, event)">
         <div class="popup-content" onmousedown="hidePopup(this, this.parentElement, event)">
-            <textarea class="bibtex" readonly></textarea>
+            <textarea name="bibtex" class="bibtex" readonly></textarea>
             <a class="button" onclick="copy(this)" style="width: fit-content;"><iconify-icon icon="fluent:copy-16-regular" style="vertical-align: middle;"></iconify-icon>Copy to clipboard</a>
         </div>
     </div>
