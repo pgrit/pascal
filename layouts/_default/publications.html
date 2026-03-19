@@ -39,40 +39,52 @@
     </script>
 
     <div>
-        Reviewing conflicts based on recent co-authors (as of 2024):
+      <h2><a class="collapse-btn active">Reviewing conflicts</a> </h2>
+      <div class="collapse-content">
+        <p>
+          <b>Institutional conflicts:</b> Saarland University &amp; all institutes on the <a href="https://saarland-informatics-campus.de">Saarland Informatics Campus</a>, particularly German Research Center for Artificial Intelligence (DFKI) &amp; Max Planck Institute for Informatics
+        </p>
 
-        {{ $nowYear := time.Now.Year }}
-        {{ $conflictThreshold := sub $nowYear 3 }}
+        <p>
+          <b>Advisor / advisee conflicts:</b>
+          Philipp Slusallek, Arsène Pérard-Gayot, Alexander Rath, Qingqin Hua, Ömercan Yazici
+        </p>
 
-        {{ $allCoAuthors := ( slice "Philipp Slusallek" ) }}
-        {{ $allCoAuthorLinks := ( slice "https://graphics.cg.uni-saarland.de/people/slusallek" ) }}
-        {{ range $.Site.Data.publications.journal }}
-            {{ if gt (time.AsTime .date).Year $conflictThreshold }}
-                {{ range .authors }}
-                    {{ if and (not .me) (not (in $allCoAuthors .name)) }}
-                        {{ $allCoAuthors = append .name $allCoAuthors }}
-                        {{ $allCoAuthorLinks = append .url $allCoAuthorLinks }}
+        <p>
+          {{ $nowYear := time.Now.Year }}
+          {{ $conflictThreshold := sub $nowYear 4 }}
+          <b>Recent co-authors</b> (auto-generated in {{ $nowYear }}):
+            {{ $allCoAuthors := ( slice "Philipp Slusallek" ) }}
+            {{ $allCoAuthorLinks := ( slice "https://graphics.cg.uni-saarland.de/people/slusallek" ) }}
+            {{ range $.Site.Data.publications.journal }}
+                {{ if gt (time.AsTime .date).Year $conflictThreshold }}
+                    {{ range .authors }}
+                        {{ if and (not .me) (not (in $allCoAuthors .name)) }}
+                            {{ $allCoAuthors = append .name $allCoAuthors }}
+                            {{ $allCoAuthorLinks = append .url $allCoAuthorLinks }}
+                        {{ end }}
                     {{ end }}
                 {{ end }}
             {{ end }}
-        {{ end }}
-        {{ range $.Site.Data.publications.conference }}
-            {{ if gt (time.AsTime .date).Year $conflictThreshold }}
-                {{ range .authors }}
-                    {{ if and (not .me) (not (in $allCoAuthors .name)) }}
-                        {{ $allCoAuthors = append .name $allCoAuthors }}
-                        {{ $allCoAuthorLinks = append .url $allCoAuthorLinks }}
+            {{ range $.Site.Data.publications.conference }}
+                {{ if gt (time.AsTime .date).Year $conflictThreshold }}
+                    {{ range .authors }}
+                        {{ if and (not .me) (not (in $allCoAuthors .name)) }}
+                            {{ $allCoAuthors = append .name $allCoAuthors }}
+                            {{ $allCoAuthorLinks = append .url $allCoAuthorLinks }}
+                        {{ end }}
                     {{ end }}
                 {{ end }}
             {{ end }}
-        {{ end }}
 
-        {{ $i := 0 }}
-        {{ $last := sub (len $allCoAuthors) 1 }}
-        {{ range $allCoAuthors }}
-            <a href="{{ index $allCoAuthorLinks $i }}">{{ . }}</a>{{if lt $i $last}}, {{ end }}
-            {{ $i = add $i 1}}
-        {{ end }}
+            {{ $i := 0 }}
+            {{ $last := sub (len $allCoAuthors) 1 }}
+            {{ range $allCoAuthors }}
+                <a href="{{ index $allCoAuthorLinks $i }}">{{ . }}</a>{{if lt $i $last}}, {{ end }}
+                {{ $i = add $i 1}}
+            {{ end }}
+        </p>
+      </div>
     </div>
 
     <div>
